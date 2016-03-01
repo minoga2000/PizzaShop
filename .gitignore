@@ -12,3 +12,4 @@ public/images/peperoni.png
 public/images/peperoni.png
 public/images/peperoni.png
 public/images/peperoni.png
+db/migrate/20160301113954_create_orders.rb
