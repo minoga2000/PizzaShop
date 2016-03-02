@@ -30,7 +30,7 @@ post '/place_order' do
 end
 
 post '/cart' do
-	orders_input = params[:orders_input]
+	orders_input = params[:orders_input] #renamed from :orders
 	@items = parse_orders_input orders_input
 
 	@items.each do |item|
